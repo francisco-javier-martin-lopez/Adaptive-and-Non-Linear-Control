@@ -5,7 +5,7 @@ This repository contains two projects done for the "Adaptive and Nonlinear Contr
 ### Project 1: Hexarotor UAV Adaptive Control
 * **UAV Modeling:** We built a 6-DOF nonlinear dynamic model of a hexarotor in Simulink. We used SVD (Singular Value Decomposition) to properly allocate the commanded forces and moments to the six propellers.
 * **Baseline Controller:** We designed a cascaded control architecture (Position -> Velocity -> Attitude) and mathematically proved its stability using Lyapunov functions.
-* **Adaptive Control (PBMRAC):** To handle unknown changes in mass and CG (for example, when the drone carries an unpredictable delivery package), we upgraded the system with a Predictor-Based Model Reference Adaptive Controller. We also implemented *e-modification* to prevent the adaptive gains from drifting.
+* **Adaptive Control (PBMRAC):** To handle unknown changes in mass and CG (for example, when the drone carries an unpredictable delivery package), we upgraded the system with a Predictor-Based Model Reference Adaptive Controller. We also implemented a projector and *e-modification* to prevent the adaptive gains from drifting.
 * **Robustness Testing:** We tested the UAV under tough conditions, such as strong crosswinds and a sudden 20% effectiveness loss in one of the propellers. The adaptive controller successfully managed these disturbances, maintaining a very low tracking error during the delivery route.
 
 ### Project 2: Autonomous Path Planning
