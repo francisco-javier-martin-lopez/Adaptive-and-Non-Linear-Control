@@ -1,6 +1,6 @@
-# Adaptive and Nonlinear Control - Politecnico di Milano
+# Adaptive and Autonomous Aerospace Systems - Politecnico di Milano
 
-This repository contains two projects done for the "Adaptive and Nonlinear Control" course at Politecnico di Milano. The first one is a practical Simulink project focused on UAV control, and the second one is a short research presentation on autonomous path-planning algorithms.
+This repository contains two projects done for the "Adaptive and Autonomous Aerospace Systems" course at Politecnico di Milano. The first one is a practical Simulink project focused on UAV control, and the second one is a short research presentation on autonomous path-planning algorithms.
 
 ### Project 1: Hexarotor UAV Adaptive Control
 * **UAV Modeling:** We built a 6-DOF nonlinear dynamic model of a hexarotor in Simulink. We used SVD (Singular Value Decomposition) to properly allocate the commanded forces and moments to the six propellers.
